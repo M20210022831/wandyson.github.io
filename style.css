@@ -1,0 +1,308 @@
+/*A organização do código se dá pela ordem das seções do HTML que aparecem no navegador*/
+
+body{
+	font-family: Helvética;
+	margin: 0px;
+	min-width: 1200px;
+}
+
+/*Barra de Navegação*/
+
+header{
+	background-color: #02040A;
+	min-height: 50px;
+	position: fixed;
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+	float: right;
+	color: #EDEEF0;
+	padding: 18px 20px;
+	text-shadow: 0.3px 0.3px 0.5px;
+}
+
+#menu{
+	padding-top: 8px;
+}
+
+#menu a:hover{
+	background-color: #0C1128;
+	border-radius: 20px;
+	transform: scale(1.03);
+}
+
+#contato{
+	float: left;
+	margin: 0px;
+}
+
+#contato a:hover{
+	transform: scale(1.1);
+}
+
+/*Seção 1 - Sobre*/
+
+#sobre{
+	background-color: #EDEEF0;
+	min-height: 180px;
+	padding: 80px 80px 20px 100px;
+}
+
+#sobrein{
+	background-color: #0C1128;
+	min-height: 240px;
+	border-radius: 50px;
+	text-align: center;
+}
+
+#fotoperfil{
+	border-radius: 50px;
+}
+
+#foto{
+	text-align: center;
+}
+
+#apresentacao{
+	color: #EDEEF0;
+	text-shadow: 0.3px 0.3px 0.5px;
+	padding: 10px 10px;
+	font-family: times;
+}
+
+/*Seção 2 - Sonho*/
+
+#sonho{
+	background-color: #EDEEF0;
+	min-height: 600px;
+	padding: 80px;
+}
+
+#sonhoin{
+	background-color: #EDEEF0;
+	clear: both;
+}
+#foguete{
+	float: left;
+}
+
+#questionamento{
+	color: #3A4978;
+	float: right;
+	font-family: arial;
+	width: 85%;
+	padding: 30px 10px 0px 0px;
+}
+
+#descricao{
+	width: 60%;
+	float: left;
+	text-shadow: 0.3px 0.3px 0.5px;
+}
+
+.cor{
+	color: #3A4978;
+}
+
+#capa{
+	float: right;
+	margin: 140px 80px 0px 0px;
+}
+
+#capa:hover{
+	transform: scale(1.4);
+}
+
+/*Seção 3 - EJ*/
+
+#espaco{
+	min-height: 200px;
+	background-color: #3A4978
+}
+
+#grafico{
+	padding: 70px 0px 0px 80px;
+}
+
+#relacaoej{
+	background-color: #3A4978;
+	min-height: 800px;
+	padding: 50px;
+}
+
+#titulo{
+	color: #EDEEF0;
+	text-shadow: 0.3px 0.3px 0.5px;
+}
+
+#relacaoejin{
+	background-color: #243057;
+	border-radius: 100px;
+	padding: 30px;
+	color: #EDEEF0;
+	text-shadow: 0.3px 0.3px 0.5px;
+	float: left;
+	width: 60%;
+	margin: 10px;
+}
+
+#produtiva{
+	border-radius: 60px;
+	float: right;
+	margin: 10px;
+}
+
+#produtiva:hover{
+	transform: scale(1.1);
+}
+
+#admconsult{
+	border-radius: 60px;
+	float: right;
+}
+
+#admconsult:hover{
+	transform: scale(1.1);
+}
+
+/*Seção 4 - SWOT*/
+
+#titulo{
+	padding: 80px 0px 0px 0px;
+}
+
+#swot{
+	background-color: #243057;
+	min-height: 250px;
+	padding: 60px;
+}
+
+#swotin{
+	background-color: #243057;
+	padding: 60px;
+	min-height: 580px;
+}
+
+#swotexplicacao{
+	background-color: #243057;
+}
+
+#tituloswot{
+	color: #EDEEF0;
+	text-shadow: 0.3px 0.3px 0.5px;
+}
+
+#descricaoswot{
+	color: #EDEEF0;
+	width: 70%;
+	border-radius: 40px;
+	float: left;
+	padding: 0px 70px;
+}
+
+#diagnostico{
+	float: right;
+}
+
+#fortes{
+	background-color: #3A4978;
+	float: left;
+	color: #EDEEF0;
+	border-radius: 40px;
+	width: 40%;
+	margin: 15px 20px 15px 40px;
+	padding: 20px;
+	min-height: 220px;
+}
+
+#fortes:hover{
+	transform: scale(1.1);
+}
+
+#fracos{
+	background-color: #3A4978;
+	color: #EDEEF0;
+	border-radius: 40px;
+	width: 40%;
+	float: left;
+	margin: 15px 20px 15px 40px;
+	padding: 20px;
+	min-height: 220px;
+}
+
+#fracos:hover{
+	transform: scale(1.1);
+}
+
+#oportunidades{
+	background-color: #3A4978;
+	color: #EDEEF0;
+	border-radius: 40px;
+	width: 40%;
+	float: left;
+	margin: 15px 20px 15px 40px;
+	padding: 20px;
+	min-height: 220px;
+}
+
+#oportunidades:hover{
+	transform: scale(1.1);
+}
+
+#ameacas{
+	background-color: #3A4978;
+	float: left;
+	color: #EDEEF0;
+	border-radius: 40px;
+	width: 40%;
+	margin: 15px 20px 15px 40px;
+	padding: 20px;
+	min-height: 220px;
+}
+
+#ameacas:hover{
+	transform: scale(1.1);
+}
+
+/*Seção 5 - Curiosidades*/
+
+#curiosidades{
+	background-color: #EDEEF0;
+	min-height: 430px;
+	padding: 60px 0px 20px 20px;
+}
+
+#curiosidadesin{
+	background-color: #3A4978;
+	margin: 100px 100px 0px 50px;
+	color: #EDEEF0;
+	border-radius: 40px;
+	padding: 20px;
+}
+
+#astronauta{
+	text-align: center;
+}
+
+#textocuriosidades{
+	color: #3A4978;
+	float: left;
+	font-family: arial;
+	margin: 20px 0px 0px 20px;
+}
+
+#obrigado{
+	text-align: center;
+	color: #3A4978;
+}
+
+footer{
+	background-color: #02040A;
+	min-height: 20px;
+	text-align: center;
+	font-family: "arial black";
+	color: white;
+	padding: 10px;
+}
